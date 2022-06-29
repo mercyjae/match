@@ -90,6 +90,26 @@ class _CommentsState extends State<Comments> {
                     ))
               ],
             ),
+          ),
+          Container(
+            width: 150,
+            height: 100,
+            decoration: BoxDecoration(
+                color: Color(0xFFAD2401),
+                borderRadius: BorderRadius.circular(10)),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset("assets/images/profile.png"),
+                Center(
+                  child: Text(
+                    "Booking\n Appointment", textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15, color: Colors.white),
+                  ),
+                )
+              ],
+            ),
           )
         ],
       ),
